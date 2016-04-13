@@ -1,0 +1,16 @@
+using System;
+
+namespace OddOrEveen
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+            double w = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0.000}", ((w * 0.17)));
+        }
+    }
+
+
+}
